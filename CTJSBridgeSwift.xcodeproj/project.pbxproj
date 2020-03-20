@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		4A4D18852424670D00CBE0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D18842424670D00CBE0A6 /* Assets.xcassets */; };
 		4A4D18882424670D00CBE0A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D18862424670D00CBE0A6 /* LaunchScreen.storyboard */; };
 		4A4D18922424674F00CBE0A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D18912424674F00CBE0A6 /* ViewController.swift */; };
+		4A4D189424246D8D00CBE0A6 /* factory.WKWebview.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D189324246D8D00CBE0A6 /* factory.WKWebview.extension.swift */; };
 		AD6DC401AC191FE427C6167B /* Pods_CTJSBridgeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6102A216E07751AD8279305 /* Pods_CTJSBridgeSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		4A4D18872424670D00CBE0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4D18892424670D00CBE0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A4D18912424674F00CBE0A6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A4D189324246D8D00CBE0A6 /* factory.WKWebview.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = factory.WKWebview.extension.swift; sourceTree = "<group>"; };
 		C6102A216E07751AD8279305 /* Pods_CTJSBridgeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTJSBridgeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBBC5104DF961DB6477DDEB /* Pods-CTJSBridgeSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTJSBridgeSwift.release.xcconfig"; path = "Target Support Files/Pods-CTJSBridgeSwift/Pods-CTJSBridgeSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 		4A4D188F2424674F00CBE0A6 /* CTJSBridgeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4A4D189324246D8D00CBE0A6 /* factory.WKWebview.extension.swift */,
 			);
 			path = CTJSBridgeSwift;
 			sourceTree = "<group>";
@@ -104,7 +107,6 @@
 				2D4E35BF96637E4C71833936 /* Pods-CTJSBridgeSwift.debug.xcconfig */,
 				DCBBC5104DF961DB6477DDEB /* Pods-CTJSBridgeSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -223,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A4D189424246D8D00CBE0A6 /* factory.WKWebview.extension.swift in Sources */,
 				4A4D187C2424670C00CBE0A6 /* AppDelegate.swift in Sources */,
 				4A4D18922424674F00CBE0A6 /* ViewController.swift in Sources */,
 				4A4D187E2424670C00CBE0A6 /* SceneDelegate.swift in Sources */,

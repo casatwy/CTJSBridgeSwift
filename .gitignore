@@ -19,6 +19,7 @@ DerivedData
 *.hmap
 *.ipa
 *.swp
+*.run
 
 # Bundler
 .bundle
@@ -36,5 +37,5 @@ Carthage/Build
 # `pod install` in .travis.yml
 #
 Pods/
-CTNetworkingSwift.xcworkspace/
-CTNetworkingSwift.xcodeproj/xcuserdata/
+CTJSBridgeSwift.xcworkspace/
+CTJSBridgeSwift.xcodeproj/xcuserdata/
