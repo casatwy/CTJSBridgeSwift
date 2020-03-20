@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		4A4D187C2424670C00CBE0A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D187B2424670C00CBE0A6 /* AppDelegate.swift */; };
 		4A4D187E2424670C00CBE0A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D187D2424670C00CBE0A6 /* SceneDelegate.swift */; };
-		4A4D18802424670C00CBE0A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D187F2424670C00CBE0A6 /* ViewController.swift */; };
 		4A4D18832424670C00CBE0A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D18812424670C00CBE0A6 /* Main.storyboard */; };
 		4A4D18852424670D00CBE0A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D18842424670D00CBE0A6 /* Assets.xcassets */; };
 		4A4D18882424670D00CBE0A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4D18862424670D00CBE0A6 /* LaunchScreen.storyboard */; };
+		4A4D18922424674F00CBE0A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D18912424674F00CBE0A6 /* ViewController.swift */; };
+		AD6DC401AC191FE427C6167B /* Pods_CTJSBridgeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6102A216E07751AD8279305 /* Pods_CTJSBridgeSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D4E35BF96637E4C71833936 /* Pods-CTJSBridgeSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTJSBridgeSwift.debug.xcconfig"; path = "Target Support Files/Pods-CTJSBridgeSwift/Pods-CTJSBridgeSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		4A4D18782424670B00CBE0A6 /* CTJSBridgeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTJSBridgeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4D187B2424670C00CBE0A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A4D187D2424670C00CBE0A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A4D187F2424670C00CBE0A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A4D18822424670C00CBE0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A4D18842424670D00CBE0A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A4D18872424670D00CBE0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4D18892424670D00CBE0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4D18912424674F00CBE0A6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6102A216E07751AD8279305 /* Pods_CTJSBridgeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTJSBridgeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCBBC5104DF961DB6477DDEB /* Pods-CTJSBridgeSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTJSBridgeSwift.release.xcconfig"; path = "Target Support Files/Pods-CTJSBridgeSwift/Pods-CTJSBridgeSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6DC401AC191FE427C6167B /* Pods_CTJSBridgeSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				4A4D187A2424670B00CBE0A6 /* CTJSBridgeSwift */,
 				4A4D18792424670B00CBE0A6 /* Products */,
+				CC478D134AFEA22C50E66186 /* Pods */,
+				B8AAB1FD3594FF3C4B1B88BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +63,49 @@
 		4A4D187A2424670B00CBE0A6 /* CTJSBridgeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				4A4D188F2424674F00CBE0A6 /* CTJSBridgeSwift */,
+				4A4D18902424674F00CBE0A6 /* Demo */,
 				4A4D187B2424670C00CBE0A6 /* AppDelegate.swift */,
 				4A4D187D2424670C00CBE0A6 /* SceneDelegate.swift */,
-				4A4D187F2424670C00CBE0A6 /* ViewController.swift */,
 				4A4D18812424670C00CBE0A6 /* Main.storyboard */,
 				4A4D18842424670D00CBE0A6 /* Assets.xcassets */,
 				4A4D18862424670D00CBE0A6 /* LaunchScreen.storyboard */,
 				4A4D18892424670D00CBE0A6 /* Info.plist */,
 			);
 			path = CTJSBridgeSwift;
+			sourceTree = "<group>";
+		};
+		4A4D188F2424674F00CBE0A6 /* CTJSBridgeSwift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CTJSBridgeSwift;
+			sourceTree = "<group>";
+		};
+		4A4D18902424674F00CBE0A6 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4A4D18912424674F00CBE0A6 /* ViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		B8AAB1FD3594FF3C4B1B88BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6102A216E07751AD8279305 /* Pods_CTJSBridgeSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC478D134AFEA22C50E66186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D4E35BF96637E4C71833936 /* Pods-CTJSBridgeSwift.debug.xcconfig */,
+				DCBBC5104DF961DB6477DDEB /* Pods-CTJSBridgeSwift.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A4D188C2424670D00CBE0A6 /* Build configuration list for PBXNativeTarget "CTJSBridgeSwift" */;
 			buildPhases = (
+				3F07F1D0B806790A9DDCD8E4 /* [CP] Check Pods Manifest.lock */,
 				4A4D18742424670B00CBE0A6 /* Sources */,
 				4A4D18752424670B00CBE0A6 /* Frameworks */,
 				4A4D18762424670B00CBE0A6 /* Resources */,
+				F90F3856E72F6C299AAD0603 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +176,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F07F1D0B806790A9DDCD8E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTJSBridgeSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90F3856E72F6C299AAD0603 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTJSBridgeSwift/Pods-CTJSBridgeSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTJSBridgeSwift/Pods-CTJSBridgeSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CTJSBridgeSwift/Pods-CTJSBridgeSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A4D18742424670B00CBE0A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A4D18802424670C00CBE0A6 /* ViewController.swift in Sources */,
 				4A4D187C2424670C00CBE0A6 /* AppDelegate.swift in Sources */,
+				4A4D18922424674F00CBE0A6 /* ViewController.swift in Sources */,
 				4A4D187E2424670C00CBE0A6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +367,7 @@
 		};
 		4A4D188D2424670D00CBE0A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4E35BF96637E4C71833936 /* Pods-CTJSBridgeSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +385,7 @@
 		};
 		4A4D188E2424670D00CBE0A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCBBC5104DF961DB6477DDEB /* Pods-CTJSBridgeSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
